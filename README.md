@@ -1,25 +1,23 @@
-# Divi-mobile-menu
+# Divi Simple Mobile Menu
 
-Divi icin daha basit bir mobil menu alternatifi.
+Divi icin daha basit bir mobil menu eklentisi.
 
 ## Ne degisti?
 
 - Mobil menude sagdan kayan panel eklendi.
 - Panelin en ustune gorunur bir **X kapatma butonu** eklendi.
 - Dis alana tiklayarak veya `ESC` ile menuyu kapatma desteklendi.
-- Bir menü linkine tiklandiginda menu otomatik kapanir.
+- Bir menu linkine tiklandiginda menu otomatik kapanir.
 
-## Kurulum (Divi)
+## WordPress eklenti olarak kurulum
 
-1. `assets/mobile-menu.css` icerigini Divi > Theme Options > Custom CSS alanina yapistir.
-2. `assets/mobile-menu.js` icerigini su yollardan biriyle ekle:
-   - Divi > Theme Options > Integration > "Add code to the <body>" alaninda script etiketi icinde,
-   - veya cocuk tema / Code Snippets ile footer'da yukle.
+1. Repoyu ZIP olarak indir.
+2. WordPress panelinde **Eklentiler > Yeni Ekle > Eklenti Yukle**.
+3. ZIP dosyasini secip yukle.
+4. **Divi Simple Mobile Menu** eklentisini etkinlestir.
 
-Ornek script kullanimi:
+Eklenti aktif oldugunda:
+- `assets/mobile-menu.css`
+- `assets/mobile-menu.js`
 
-```html
-<script>
-  /* assets/mobile-menu.js buraya */
-</script>
-```
+dosyalari otomatik olarak frontend'e yuklenir.
