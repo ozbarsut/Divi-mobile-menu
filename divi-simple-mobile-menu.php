@@ -3,7 +3,7 @@
  * Plugin Name: Divi Simple Mobile Menu
  * Plugin URI: https://github.com/ozbarsut/Divi-mobile-menu
  * Description: Simple Divi mobile menu with slide panel and visible close button.
- * Version: 1.0.1
+ * Version: 1.1.0
  * Author: ozbarsut
  * License: GPL-2.0-or-later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -22,7 +22,7 @@ function dsmm_enqueue_assets() {
         return;
     }
 
-    $version = '1.0.1';
+    $version = '1.1.0';
     $base_url = plugin_dir_url(__FILE__);
 
     wp_enqueue_style(

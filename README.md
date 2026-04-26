@@ -1,6 +1,6 @@
 # Divi Simple Mobile Menu
 
-Divi icin daha basit bir mobil menu eklentisi.
+Divi icin daha basit ama premium gorunumlu bir mobil menu eklentisi.
 
 ## Ne degisti?
 
@@ -8,6 +8,11 @@ Divi icin daha basit bir mobil menu eklentisi.
 - Panelin en ustune gorunur bir **X kapatma butonu** eklendi.
 - Dis alana tiklayarak veya `ESC` ile menuyu kapatma desteklendi.
 - Bir menu linkine tiklandiginda menu otomatik kapanir.
+- Divi Pixel / Divi Engine hissine yakin:
+  - gradient baslik alani
+  - gelismis hover/aktif item stilleri
+  - chevron ikonlu acilir alt menu toggler
+  - tek seferde bir alt menu acik kalacak davranis
 
 ## WordPress eklenti olarak kurulum
 
