@@ -26,3 +26,15 @@ Eklenti aktif oldugunda:
 - `assets/mobile-menu.js`
 
 dosyalari otomatik olarak frontend'e yuklenir.
+
+## RUBO logo (SVG)
+
+1. varyasyona yakin metalik mavi logo:
+
+- SVG: `assets/logos/rubo-rent-a-car.svg`
+- PNG onizleme: `assets/logos/rubo-rent-a-car.png`
+
+Ozellikler:
+- metalik mavi gradient
+- solda hiz cizgili R
+- altta `RENT A CAR` tagline + yan cizgiler
