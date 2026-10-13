@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 360" role="img" aria-labelledby="ruboTitle ruboDesc">
+  <title id="ruboTitle">RUBO Rent A Car</title>
+  <desc id="ruboDesc">Glossy blue italic RUBO logo with speed-line R, matching the painted reference</desc>
+
+  <defs>
+    <!-- Strong glossy split: bright top, white-blue mid flash, deep navy bottom -->
+    <linearGradient id="metal" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#8fd4ff"/>
+      <stop offset="14%" stop-color="#5eb4ff"/>
+      <stop offset="32%" stop-color="#b7ecff"/>
+      <stop offset="43%" stop-color="#effbff"/>
+      <stop offset="48%" stop-color="#5aa6f4"/>
+      <stop offset="58%" stop-color="#2a6fd6"/>
+      <stop offset="78%" stop-color="#144ea8"/>
+      <stop offset="100%" stop-color="#071a58"/>
+    </linearGradient>
+
+    <linearGradient id="shine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.38"/>
+      <stop offset="35%" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="44%" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.32"/>
+    </linearGradient>
+
+    <linearGradient id="fadeLeft" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a78d4" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#3a78d4" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3a78d4" stop-opacity="1"/>
+    </linearGradient>
+
+    <linearGradient id="fadeRight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a78d4" stop-opacity="1"/>
+      <stop offset="30%" stop-color="#3a78d4" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3a78d4" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="depth" x="-5%" y="-8%" width="110%" height="124%">
+      <feDropShadow dx="0" dy="5" stdDeviation="3.5" flood-color="#000000" flood-opacity="0.65"/>
+    </filter>
+  </defs>
+
+  <rect width="1180" height="360" fill="#000000"/>
+
+  <!-- Stronger italic lean -->
+  <g transform="translate(20 8) skewX(-15)" filter="url(#depth)">
+    <g id="letters" fill="url(#metal)" fill-rule="evenodd">
+      <!-- ===== R ===== -->
+      <path d="
+        M255 46
+        H352
+        C414 46 454 88 454 140
+        C454 180 428 208 386 218
+        L458 286
+        H386
+        L328 220
+        H305
+        V286
+        H255
+        Z
+        M305 96
+        V176
+        H352
+        C382 176 404 158 404 138
+        C404 118 382 96 352 96
+        Z
+      "/>
+
+      <!-- Top left spike (longest, sharp) -->
+      <path d="
+        M255 46
+        H305
+        V86
+        H130
+        L62 66
+        L130 46
+        Z
+      "/>
+
+      <!-- Mid curved swoosh -->
+      <path d="
+        M90 146
+        C152 126 206 120 255 124
+        V156
+        C210 152 162 156 112 174
+        Z
+      "/>
+
+      <!-- Lower curved swoosh -->
+      <path d="
+        M118 192
+        C172 174 218 168 255 172
+        V202
+        C220 198 178 202 138 218
+        Z
+      "/>
+
+      <!-- ===== U (rounded, thick) ===== -->
+      <path d="
+        M494 46
+        H552
+        V166
+        C552 206 574 230 616 230
+        C658 230 680 206 680 166
+        V46
+        H738
+        V170
+        C738 246 684 298 616 298
+        C548 298 494 246 494 170
+        Z
+      "/>
+
+      <!-- ===== B (soft bowls) ===== -->
+      <path d="
+        M774 46
+        H882
+        C948 46 986 88 986 138
+        C986 172 964 196 928 206
+        C970 216 1000 246 1000 286
+        C1000 322 948 298 882 298
+        H774
+        Z
+        M830 94
+        H878
+        C910 94 932 112 932 138
+        C932 164 910 182 878 182
+        H830
+        Z
+        M830 222
+        H868
+        C898 222 920 236 920 250
+        C920 264 898 272 868 272
+        H830
+        Z
+      "/>
+
+      <!-- ===== O (rounded square / stadium) ===== -->
+      <path d="
+        M1210 172
+        C1210 104 1156 46 1082 46
+        C1008 46 954 104 954 172
+        C954 240 1008 298 1082 298
+        C1156 298 1210 240 1210 172
+        Z
+        M1144 172
+        C1144 208 1118 246 1082 246
+        C1046 246 1020 208 1020 172
+        C1020 136 1046 98 1082 98
+        C1118 98 1144 136 1144 172
+        Z
+      "/>
+    </g>
+
+    <use href="#letters" fill="url(#shine)" opacity="0.4"/>
+  </g>
+
+  <!-- Tagline under UBO area -->
+  <g>
+    <rect x="300" y="320" width="200" height="2.5" rx="1.25" fill="url(#fadeLeft)"/>
+    <rect x="700" y="320" width="200" height="2.5" rx="1.25" fill="url(#fadeRight)"/>
+    <text
+      x="600"
+      y="324"
+      text-anchor="middle"
+      dominant-baseline="middle"
+      font-family="Helvetica Neue, Arial, sans-serif"
+      font-size="23"
+      font-weight="600"
+      letter-spacing="11"
+      fill="#3a78d4"
+    >RENT A CAR</text>
+  </g>
+</svg>
