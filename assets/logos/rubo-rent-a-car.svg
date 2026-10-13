@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1140 320" role="img" aria-labelledby="ruboTitle ruboDesc">
+  <title id="ruboTitle">RUBO Rent A Car</title>
+  <desc id="ruboDesc">Metallic blue RUBO wordmark with left speed lines and RENT A CAR tagline</desc>
+
+  <defs>
+    <linearGradient id="metal" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#06133c"/>
+      <stop offset="10%" stop-color="#0b2d78"/>
+      <stop offset="26%" stop-color="#1859c4"/>
+      <stop offset="40%" stop-color="#2f9ef0"/>
+      <stop offset="48%" stop-color="#6fe4ff"/>
+      <stop offset="54%" stop-color="#8ef0ff"/>
+      <stop offset="62%" stop-color="#2f82f2"/>
+      <stop offset="78%" stop-color="#103c94"/>
+      <stop offset="100%" stop-color="#040e2a"/>
+    </linearGradient>
+
+    <linearGradient id="shine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.32"/>
+      <stop offset="30%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="48%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#000000" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.28"/>
+    </linearGradient>
+
+    <filter id="depth" x="-3%" y="-5%" width="106%" height="116%">
+      <feDropShadow dx="0" dy="3" stdDeviation="2" flood-color="#031028" flood-opacity="0.24"/>
+    </filter>
+  </defs>
+
+  <rect width="1140" height="320" fill="#ffffff"/>
+
+  <g filter="url(#depth)">
+    <g id="letters" fill="url(#metal)" fill-rule="evenodd">
+      <!-- R upper stem + bowl + leg (lower-left is speed lines) -->
+      <path d="
+        M210 40
+        H310
+        C364 40 400 74 400 122
+        C400 158 378 180 340 188
+        L414 250
+        H350
+        L284 188
+        H258
+        V250
+        H210
+        V216
+        H258
+        V138
+        H210
+        Z
+        M258 84
+        V138
+        H304
+        C328 138 346 124 346 112
+        C346 100 328 84 304 84
+        Z
+      "/>
+
+      <!-- R top spike -->
+      <path d="M210 40 H258 V72 H112 L70 56 L112 40 Z"/>
+
+      <!-- Speed lines feeding into R -->
+      <path d="M52 148 C118 132 166 128 210 132 V152 C170 148 126 152 68 166 Z"/>
+      <path d="M40 178 C114 160 166 156 210 160 V180 C168 176 120 180 56 196 Z"/>
+      <path d="M46 208 C116 190 168 186 210 190 V210 C170 206 122 210 62 226 Z"/>
+
+      <!-- U -->
+      <path d="
+        M452 40
+        H504
+        V146
+        C504 182 526 204 564 204
+        C602 204 624 182 624 146
+        V40
+        H676
+        V150
+        C676 216 628 260 564 260
+        C500 260 452 216 452 150
+        Z
+      "/>
+
+      <!-- B -->
+      <path d="
+        M710 40
+        H814
+        C868 40 900 74 900 116
+        C900 146 880 166 848 174
+        C884 182 910 208 910 244
+        C910 286 866 260 802 260
+        H710
+        Z
+        M762 82
+        H810
+        C836 82 854 98 854 116
+        C854 134 836 150 810 150
+        H762
+        Z
+        M762 190
+        H798
+        C828 190 848 204 848 216
+        C848 228 828 240 798 240
+        H762
+        Z
+      "/>
+
+      <!-- O (starts after B with clear gap) -->
+      <path d="
+        M1100 150
+        C1100 88 1050 40 982 40
+        C914 40 864 88 864 150
+        C864 212 914 260 982 260
+        C1050 260 1100 212 1100 150
+        Z
+        M1034 150
+        C1034 184 1012 216 982 216
+        C952 216 930 184 930 150
+        C930 116 952 84 982 84
+        C1012 84 1034 116 1034 150
+        Z
+      "/>
+    </g>
+
+    <use href="#letters" fill="url(#shine)" opacity="0.4"/>
+  </g>
+
+  <!-- Tagline -->
+  <g fill="#0a1d52">
+    <rect x="270" y="290" width="170" height="3" rx="1.5"/>
+    <rect x="700" y="290" width="170" height="3" rx="1.5"/>
+    <text
+      x="570"
+      y="294"
+      text-anchor="middle"
+      dominant-baseline="middle"
+      font-family="Helvetica Neue, Arial, sans-serif"
+      font-size="23"
+      font-weight="600"
+      letter-spacing="9"
+    >RENT A CAR</text>
+  </g>
+</svg>
